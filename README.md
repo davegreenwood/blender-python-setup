@@ -2,6 +2,11 @@
 
 Some tips for setting up blender for development.
 
+The Blender documentation is the best place to start.
+For the application the docs are at [https://docs.blender.org](https://docs.blender.org).
+
+The link for the API docs is at [https://docs.blender.org/api/current/](https://docs.blender.org/api/current/).
+
 ## Add Ons
 
 For anything beyond the simplest scripts, you'll need to create an add-on.
