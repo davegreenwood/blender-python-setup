@@ -3,7 +3,7 @@ import sys
 import bpy
 import numpy as np
 import logging
-from dg_module import mean_vertex
+from dg_module_01 import mean_vertex
 
 # it may be better to get an object by name - or some other way
 OBJ = bpy.context.active_object
