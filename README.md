@@ -40,3 +40,17 @@ Here we pass arguments to the python script as described in this [post](https://
 
 Having spaces around `--` is important, this is a signal that Blender should
 stop parsing the arguments and allows you to pass your own arguments to Python.
+
+## Debugging
+
+It is possible to use the standard Python debugger to debug scripts,
+following this rather old stack [answer](https://blender.stackexchange.com/a/2504/100373).
+
+1. Launch blender from a terminal emulator.
+2. Add `import pdb; pdb.set_trace()` to your code where you wish to start debugging from.
+3. Run your code and you'll be put into the
+   Python [debugger](https://docs.python.org/3/library/pdb.html), where you can
+   use `s` `Enter` to step through the code.
+
+See the `pdb` [documentation](http://docs.python.org/3.9/library/pdb.html#debugger-commands)
+for more info on usage. Also for the nicer _ipython_ debugger, you can use `ipdb`.
