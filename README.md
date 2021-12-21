@@ -17,6 +17,10 @@ Refer to the Blender documentation for your operating system. When developing ad
 
 If you use VScode you might find [this extension](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) useful.
 
+Some setup can be difficult to achieve, for example this [post](https://developer.blender.org/T67387) explains some ways of adding and reloading scripts.
+
+There is a simple script included [here](reload_addons.py) to load and reload addons.
+
 ### Simple Add-on
 
 The simplest add-on is a single file,
