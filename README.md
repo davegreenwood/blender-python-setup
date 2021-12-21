@@ -12,6 +12,13 @@ Refer to the Blender documentation for your operating system. When developing ad
 
 If you use VScode you might find [this extension](https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development) useful.
 
+### Simple Add-on
+
+The simplest add-on is a single file,
+it requires `bl_info`, and `register`, `deregister` functions.
+
+There is an example [here](dg_module.py).
+
 ## Logging
 
 Create a startup script that sets up logging.
