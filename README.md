@@ -43,7 +43,7 @@ Create a startup script that sets up logging.
 
 The script needs to be in the startup folder, eg. for MacOS:
 
-    ~/Library/Application Support/Blender/3.0/scripts/startup/logging.py
+    ~/Library/Application Support/Blender/3.0/scripts/startup/start_log.py
 
 ## Unit tests
 
